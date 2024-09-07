@@ -14,3 +14,4 @@ finalServicePrice = servicePrice - discountPrice
 
 # Prints the final price, formatted as a string with the currency "USD".
 print(f"The final price is: {finalServicePrice} USD.")
+print(f"The discount is: {discountPrice} USD.")

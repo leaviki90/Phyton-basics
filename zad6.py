@@ -1,12 +1,9 @@
-name = input();
+#6.	Concatenate Data
+firstName = input();
 lastName = input();
 age = int(input());
-city = input();
+town = input();
 
-print(f"You are {name} {lastName} from {city} and you are {age}.")
+print("You are {firstName} {lastName}, a {age}-years old person from {town}.")
 
-#konkatenacija stringa i broja je problem
-#mora ovako sa str() - pretvara u text
-
-# print("Ana" + str(b)); b je varijabla; b = 3
 

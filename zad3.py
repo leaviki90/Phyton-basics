@@ -1,24 +1,13 @@
-#u Phytonu varijabla moze da menja svoj tip
+#3.	Area of a rectangle
+# Third task
+a = int(input())  # Reads input from the console as a string, then converts it to an integer using int()
+b = int(input())  # Does the same for the second input
+# int() is a function that takes input() as an argument and converts it to an integer
 
+# c = a * b  # This line multiplies a and b, storing the result in c, but is commented out
+# print(c)  # This line prints the result stored in c, but is commented out
 
-x = 5;
-print(x);
-x = "Hello World";
-print(x);
+# Alternatively, you can directly print the result of a multiplication
+print(a * b)  # This line calculates and prints the result of a * b without storing it in a variable
 
-# nije dozvoljeno praviti razmake izmedju reci koje cine naziv varijable
-# naziv varijable ne može početi brojem
-# naziv varijable ne može sadržati sprecijalne karaktere
-# naziv varijable - velika slova, mala slova, brojevi,
-# koristi se Camel case
-
-#Treci zadatak
-a = int(input()); #cita input iz konzole kao tekst a tekst se ne mnozi
-b = int(input()); #zato koristimo int() da pretvorimo tekst u broj
-#int() funkcija koja prima input() kao argument
-
-#c = a*b;
-#print(c);
-print(a*b);
-
-#print moze da dobije izraz, da izracuna i prikaze kao tekst, bez da smestamo rezulat u varijablu
+# print() can take an expression, calculate it, and display the result as text without storing the result in a variable

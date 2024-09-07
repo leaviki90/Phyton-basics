@@ -2,10 +2,9 @@
 while True:
     try:
         # Prompt the user to input the number of dog food packs and convert it to an integer
-        dogFoodPack = int(input("Enter the number of dog food packs: "))
-
+        dogFoodPack = int(input())
         # Prompt the user to input the number of cat food packs and convert it to an integer
-        catFoodPack = int(input("Enter the number of cat food packs: "))
+        catFoodPack = int(input())
 
         # Check if both values are within the valid range (0 to 100)
         if 0 <= dogFoodPack <= 100 and 0 <= catFoodPack <= 100:

@@ -1,3 +1,6 @@
-inci = float(input()); #ono sto korisnik unese pretvaramo u broj sa decimalama
+# Convert the user input (in inches) to a float, allowing for decimal values
+inches = float(input())  # The user enters a value in inches (can be an integer or decimal)
 
-print(inci * 2.54);
+# Convert inches to centimeters (1 inch = 2.54 cm)
+print(inches * 2.54)  # The result is printed directly, converting inches to centimeters
+

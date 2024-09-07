@@ -1,16 +1,5 @@
 
-#a = 24/9;
-#print(a); #daje tacan rezultat
-
-#b = 24 //9; #najveci ceo broj
-#print(b);
-
-#c = 24 % 9; #daje ostatak pri deljenju
-#print(c);
-
-#nije dozvoljeno deljenje nulom
-#7, 8, 9 za domaći
-
+#7.	Projects Creation Task
 architectName = input();
 
 # Infinite loop that keeps asking for a valid number of projects

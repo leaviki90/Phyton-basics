@@ -1,4 +1,3 @@
-
 #7.	Projects Creation Task
 architectName = input();
 

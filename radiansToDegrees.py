@@ -1,3 +1,4 @@
+#2.	Convertor: from radians to degrees
 from math import pi  # Imports the constant pi from the math module
 
 # 2. Converter: from radians to degrees

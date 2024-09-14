@@ -1,3 +1,4 @@
+#2.	Numbers from 1 to 10
 # print converts a number to text and then displays it on the screen
 print(1)  # Prints the number 1 as text
 print(2)  # Prints the number 2 as text

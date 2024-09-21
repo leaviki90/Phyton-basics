@@ -88,3 +88,55 @@ print(expression2)  # False
 
 # Less than or equal to is written as <=
 # Greater than or equal to is written as >=
+
+# A method is associated with a type or class
+# - A method is a function that is called on an object, and it's associated with the object's class.
+# - For example, methods like lower() are defined for string objects in Python.
+# - Methods belong to specific data types (like strings, lists, dictionaries, etc.).
+
+# A function is independent of objects and can be called on its own
+# - Functions are general-purpose and can be applied to various types of data or used in different contexts.
+
+# Example of a method: lower()
+# - lower() is a string method that converts all uppercase letters in the string to lowercase.
+# - This method does not modify the original string, it returns a new string in lowercase.
+
+# Example:
+text = "Hello World"
+lowercase_text = text.lower()  # Returns a new string "hello world"
+
+# In Python, strings are immutable
+# - This means that once a string is created, it cannot be changed.
+# - Any operation that modifies a string, such as lower(), actually creates a new string.
+# - The original string remains unchanged.
+
+# Example:
+original_string = "Python"
+new_string = original_string.lower()  # new_string is "python", original_string is still "Python"
+
+# Immutable objects like strings ensure that their values don't change, making code safer and easier to debug.
+
+# Explanation of the priority of logical operators
+# 1. "not" has the highest priority (unary operator)
+# 2. "and" has the next highest priority (requires two expressions)
+# 3. "or" has the lowest priority (also requires two expressions)
+
+# Let's see how this works in practice:
+expression3 = not 3 > 4 and 4 == 5 or not 2 != 3 or not 1 == 2
+# 1. not 3 > 4 becomes True (because 3 > 4 is False, and not False is True)
+# 2. not 2 != 3 becomes False (because 2 != 3 is True, and not True is False)
+# 3. not 1 == 2 becomes True (because 1 == 2 is False, and not False is True)
+# Now the expression becomes: True and False or False or True
+# Next, the "and" operator is evaluated first: True and False -> False
+# Now we have: False or False or True
+# Finally, "or" is evaluated: False or False -> False, then False or True -> True
+print(expression3)  # Output: True
+
+# Another simple expression example:
+expression4 = not 2 + 3 == 4
+# This is equivalent to: not (2 + 3 == 4), because "==" has higher priority than "not"
+# 2 + 3 == 4 is False, so not False becomes True
+print(expression4)  # Output: True
+
+#price = 5.6789
+#print(f"{price:.2f}")  # Prints: 5.68

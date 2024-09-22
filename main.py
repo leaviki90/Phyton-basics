@@ -140,3 +140,4 @@ print(expression4)  # Output: True
 
 #price = 5.6789
 #print(f"{price:.2f}")  # Prints: 5.68
+#print(f"{(rowNumber * colNumber * 5):.2f} USD")

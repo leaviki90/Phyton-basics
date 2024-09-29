@@ -1,19 +1,34 @@
 #2.	Half Sum Element
-n = int(input());
-largestNum = int(input());
-sum1 = largestNum;
+# Input the number of total values to be entered
+n = int(input())
 
-num = 0;
+# Input the first number and initialize it as the largest number
+largestNum = int(input())
+
+# Initialize the sum to include the first number
+sum1 = largestNum
+
+# Initialize a variable to hold the current number
+num = 0
+
+# Loop through the remaining (n-1) numbers
 for i in range(1, n):
-    num = int(input());
-    sum1 += num;
-    if(num > largestNum):
-        largestNum = num;
+    # Input the current number
+    num = int(input())
 
+    # Add the current number to the total sum
+    sum1 += num
 
-if(largestNum == (sum1 - largestNum)):
-    print("Yes");
-    print(f"Sum = {largestNum}");
+    # Update the largest number if the current number is greater than the largest so far
+    if num > largestNum:
+        largestNum = num
+
+# Check if the largest number equals the sum of all other numbers (total sum minus the largest number)
+if largestNum == (sum1 - largestNum):
+    # If true, print "Yes" and the sum that equals the largest number
+    print("Yes")
+    print(f"Sum = {largestNum}")
 else:
-    print("No");
+    # If false, print "No" and the absolute difference between the largest number and the sum of the other numbers
+    print("No")
     print(f"Diff = {abs(sum1 - largestNum - largestNum)}")

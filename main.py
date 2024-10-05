@@ -141,3 +141,18 @@ print(expression4)  # Output: True
 #price = 5.6789
 #print(f"{price:.2f}")  # Prints: 5.68
 #print(f"{(rowNumber * colNumber * 5):.2f} USD")
+
+# The 'for' loop starts from 2, increments by 7, and stops before reaching 10
+for i in range(2, 10, 7):
+    print(i)
+
+# The 'for' loop does not accept decimal step values, but a 'while' loop can handle them
+
+# Initialize the variable 'i' with the starting value of 2
+i = 2
+# The 'while' loop continues as long as 'i' is less than 10
+while i < 10:
+    # Print the current value of 'i'
+    print(i)
+    # Increment 'i' by 7 after each iteration (the step)
+    i += 7
